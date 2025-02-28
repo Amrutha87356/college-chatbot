@@ -22,7 +22,7 @@ vectorizer = TfidfVectorizer()
 question_vectors = vectorizer.fit_transform(df['Question'])
 
 # Configure Gemini API (replace with your actual API key)
-API_KEY = "AIzaSyAwGwsc5748lijtmw_-eqd2V5FJ0kU7Wis"  # DO NOT EMBED KEYS DIRECTLY! Use st.secrets or env vars!
+API_KEY = "AIzaSyAXG3TqGQy7SKZe4Fj__cobHdlzD1oN4oE"  # DO NOT EMBED KEYS DIRECTLY! Use st.secrets or env vars!
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
